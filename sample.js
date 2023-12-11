@@ -18,7 +18,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.contextMenus.create({
   "id": "v",
-  "title": "View %s in Internal Site",
+  "title": "View %s in classic mode",
   "contexts": ["selection"],    
 });
 
